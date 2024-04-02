@@ -4,8 +4,8 @@
 文件自动分片，支持分片单独读取，`MD5`或`SHA1`
 
 ### CDN 引入使用方式 `10.82 kB │ gzip: 4.07 kB`
-- `https://unpkg.com/youloge`
-- `https://cdn.jsdelivr.net/npm/youloge`
+- `https://unpkg.com/youloge.etag`
+- `https://cdn.jsdelivr.net/npm/youloge.etag`
 
 - 直接包安装 `npm i youloge.etag`
 
