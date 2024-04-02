@@ -28,7 +28,7 @@ document.querySelector('#file').onchange = function(e) {
         console.log('progress',res)
       }),
     }).then(file=>{
-      console.log('file',file)
+      console.dir(file)
     }).catch(err=>{
       console.log('err',err)
     })
