@@ -20,12 +20,13 @@ document.querySelector('#app').innerHTML = `
 `
 document.querySelector('#file').onchange = function(e) {
   let files = e.target.files
-  console.log('onchange',files)
   Array.from(files).forEach(file => {
     YouEtag({
       file: file,
-      // progress: document.querySelector('#counter'),
       // size: 5*1024*1024
+      progress: (res=>{
+        console.log('progress',res)
+      }),
     }).then(file=>{
       console.log('file',file)
     }).catch(err=>{

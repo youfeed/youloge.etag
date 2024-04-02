@@ -4,8 +4,8 @@ export default defineConfig({
   build: {
     lib: {
       entry: './lib/main.js',
-      name: 'YouEtag',
-      fileName: 'YouEtag'
+      name: 'youloge.etag',
+      fileName: (format) => `youloge.etag.${format}.js`,
     }
   }
 })

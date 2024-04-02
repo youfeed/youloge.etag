@@ -7,6 +7,6 @@ interface File {
 }
 export function YouEtag(Object:{
   file:File,
-  progress:Function | undefined,
-  size:Number | 5242880
+  size:Number | 5242880,
+  progress:Function | undefined
 }): void

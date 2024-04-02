@@ -1,19 +1,24 @@
 {
   "name": "youloge.etag",
-  "private": true,
-  "version": "0.0.0",
+  "private": false,
+  "version": "0.2.1",
   "type": "module",
+  "license": "MIT",
+  "author": "Youloge",
+  "description": "youloge.etag fast library",
   "files": [
     "dist",
     "index.d.ts"
   ],
-  "main": "./dist/counter.umd.cjs",
-  "module": "./dist/counter.js",
+  "main": "./dist/youloge.etag.es.js",
+  "module": "./dist/youloge.etag.umd.js",
+  "unpkg": "dist/youloge.etag.umd.js",
+  "jsdelivr": "dist/youloge.etag.umd.js",
   "types": "./index.d.ts",
   "exports": {
     "types": "./index.d.ts",
-    "import": "./dist/counter.js",
-    "require": "./dist/counter.umd.cjs"
+    "import": "./dist/youloge.etag.es.js",
+    "require": "./dist/youloge.etag.umd.js"
   },
   "scripts": {
     "dev": "vite",
